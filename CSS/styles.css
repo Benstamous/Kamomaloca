@@ -1,0 +1,15 @@
+body {
+    font-family:"Averia Libre", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster Two", cursive;
+}
+
+h2 {
+    color:pink ;
+}
+
+header h2 {
+    color:yellow ;
+}
