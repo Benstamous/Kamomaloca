@@ -23,3 +23,21 @@ header h2 {
 .navbar {
     background-color: pink;
 }
+
+.video-container {
+    z-index: -100;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#video-bg {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
