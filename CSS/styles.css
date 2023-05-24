@@ -14,6 +14,12 @@ header h2 {
     color:yellow ;
 }
 
+.jumbotron {
+    margin: 0;
+    padding: 15px;
+    background-color: pink;
+}
+
 .navbar {
     background-color: pink;
 }
