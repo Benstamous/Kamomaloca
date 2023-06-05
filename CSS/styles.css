@@ -89,3 +89,12 @@ h3 {
     width: auto;
     height: 200px;
 }
+
+.bdc-background {
+    background-image: url("https://media.tenor.com/-HkbP1KuqbMAAAAd/pixel-art-kitchen.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    
+}
