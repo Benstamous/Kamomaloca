@@ -73,3 +73,8 @@ h3 {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+.bdc-card {
+    width: 400px;
+    height: 200px;
+}
