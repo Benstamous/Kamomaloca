@@ -7,24 +7,24 @@ h1, h2, h3 {
 }
 
 h2 {
-    color:pink ;
+    color: #87664B ;
 }
 
 header h2 {
-    color:yellow ;
+    color:#f9b437 ;
 }
 
 h3 {
     position: absolute;
     top: 50%;
     padding: 30px;
-    color: white;
+    color: #f4f5ee;
 }
 
 .jumbotron {
     margin: 0;
     padding: 15px;
-    background-color: pink;
+    background-image: linear-gradient(to right, #29272b, #87664b, #f9b437);
 }
 
 .header-logo {
@@ -37,7 +37,7 @@ h3 {
 }
 
 .navbar {
-    background-color: pink;
+    background-image: linear-gradient(to right,#87664b, #f9b437);
 }
 
 .video-container {
@@ -59,7 +59,7 @@ h3 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#95939C, #f4f5ee);
     padding: 20px;
     padding-left: 5px;
     padding-right: 5px;
@@ -76,5 +76,16 @@ h3 {
 
 .bdc-card {
     width: 400px;
+    height: 200px;
+}
+
+.bdc-card2 {
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.bdc-img-cuisine {
+    width: auto;
     height: 200px;
 }
