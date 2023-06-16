@@ -1,0 +1,100 @@
+body {
+    font-family:"Averia Libre", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster Two", cursive;
+}
+
+h2 {
+    color: #87664B ;
+}
+
+header h2 {
+    color:#f9b437 ;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    padding: 30px;
+    color: #f4f5ee;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 15px;
+    background-image: linear-gradient(to right, #29272b, #87664b, #f9b437);
+}
+
+.header-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-text {
+    text-size-adjust: 72;
+}
+
+.navbar {
+    background-image: linear-gradient(to right,#87664b, #f9b437);
+}
+
+.video-container {
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#video-bg {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.site-footer {
+    background-image: linear-gradient(#95939C, #f4f5ee);
+    padding: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.align {
+    height: auto;
+    top: 50%;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bdc-card {
+    width: 400px;
+    height: 200px;
+}
+
+.bdc-card2 {
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.bdc-img-cuisine {
+    width: auto;
+    height: 200px;
+}
+
+.bdc-background {
+    background-image: url("https://media.tenor.com/-HkbP1KuqbMAAAAd/pixel-art-kitchen.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    
+}
