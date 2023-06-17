@@ -63,16 +63,19 @@
             <form>
                 <div class="form-row">
                     <div class="col-6 py-5 my-5">
-                        <select class="form-control">
-                            <option>Select Dish...</option>
-                            <option>Pork Munchies</option>
-                            <option>Chicken Quesonada</option>
-                            <option>Beef Empanada</option>
-                            <option>Pork Lumpia</option>
+                        <select class="form-control" id="dropdown">
+                            <option id="selectDish" active>Select Dish...</option>
+                            <option id="pork">Pork Munchies</option>
+                            <option id="chicken">Chicken Quesonada</option>
+                            <option id="beef">Beef Empanada</option>
+                            <option id="lumpia">Pork Lumpia</option>
                       </select>
                     </div>
                     <div class="col">
-                        Image here
+                        <img src="images/Food_4.jpg" class="card-img-top" id="porkImg" alt="...">
+                        <img src="images/Food_5.jpg" class="card-img-top" id="chickenImg" alt="...">
+                        <img src="images/Food_6.jpg" class="card-img-top" id="beefImg" alt="...">
+                        <img src="images/Food_2.jpg" class="card-img-top" id="lumpiaImg" alt="...">
                     </div>
                 </div>
                 <div class="form-group py-3">
@@ -116,5 +119,13 @@
             </div>
         </div>
     </footer>
+
+        <!-- build:js js/main.js -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- endbuild -->
+
 </body>
 </html>
