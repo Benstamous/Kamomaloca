@@ -56,3 +56,35 @@ function togglePics(pics, on) {
             pics.style.display = "none";
         }
 }
+
+const subtractIt = () => {
+    if (toNumber === 0) {
+        quantityNumber.textContent = "0";
+    }
+    else {
+        toNumber = parseInt(quantityNumber.textContent);
+        toNumber--;
+        quantityNumber.textContent = toNumber;
+    }
+}
+
+function addIt() {
+    toNumber++;
+    quantityNumber.textContent = toNumber;
+}
+
+const quantity = document.querySelector("#quantity");
+const minus = document.getElementById("minus");
+const quantityNumber = document.getElementById("quantityNumber");
+const plus = document.getElementById("plus");
+
+let toNumber = parseInt(quantityNumber.textContent);
+
+minus.addEventListener("click", subtractIt);
+plus.addEventListener("click", addIt);
+
+//$(function() {
+//    $("#addMore").click(function(){
+//        $("#wrappingDiv").clone().appendTo("#wrappingDiv")
+//    });
+//});
